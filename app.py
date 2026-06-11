@@ -11,7 +11,9 @@ from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
 
 load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(
+    api_key=st.secrets["GEMINI_API_KEY"]
+)
 llm = genai.GenerativeModel("gemini-2.5-flash")
 
 st.set_page_config(page_title="RAG PDF Chatbot", page_icon="📄")
