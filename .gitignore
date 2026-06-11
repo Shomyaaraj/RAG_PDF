@@ -1,0 +1,48 @@
+```gitignore
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Streamlit cache
+.streamlit/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# FAISS index (if you save it)
+*.index
+*.faiss
+
+# Uploaded PDFs (optional)
+pdfs/
+
+# Logs
+*.log
+```
